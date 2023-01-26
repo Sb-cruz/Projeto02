@@ -1,0 +1,4 @@
+<h1> PÁGINA HOME </h1>
+
+<p>Está página é a home...</p> 
+<p>{{nome}} tem {{idade}} anos de idade </p>
