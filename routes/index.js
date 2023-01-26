@@ -1,8 +1,17 @@
 const express = require('express')
 
 const router = express.Router();
+
 router.get('/',(req, res) => {
-    res.send("Rota index no diretorio router");    
+    res.send("Endereço principal");    
 });
 
-module.exports = router;
+router.get('/rota1',(req, res) => {
+    res.send("Primeira rota");    
+});
+
+router.get('/rota2',(req, res) => {
+    res.send("Segunda rota");    
+});
+
+module.exports = router; 
