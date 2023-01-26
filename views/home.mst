@@ -1,4 +1,3 @@
-<h1> PÁGINA HOME </h1>
+{{>header}}
 
-<p>Está página é a home...</p> 
-<p>{{nome}} tem {{idade}} anos de idade </p>
+<h1> PÁGINA HOME </h1>
